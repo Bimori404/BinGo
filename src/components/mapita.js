@@ -32,7 +32,7 @@ export function Mapita() {
           <Marker 
           key = {tsla.id} position={[tsla.latitud, tsla.longitud]} icon={iconito}>
           <Popup>
-            Puro pinche bin-go. <br /> y no mamadas.
+            404 <br /> Not Found
           </Popup>
         </Marker>
 
