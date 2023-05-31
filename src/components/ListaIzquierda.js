@@ -3,6 +3,8 @@ import { Contenedor } from "./Contenedor.js";
 import "../App.css"; //CSS DE LA CLASE
 import { useState, useEffect } from "react";
 
+
+
 export function Listaizq() {
   const [datosUbicacion, setDatosUbicacion] = useState([]);
 
