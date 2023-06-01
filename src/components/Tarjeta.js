@@ -7,7 +7,7 @@ import lleno from "../imagenes/verde.png";
 import ausente from "../imagenes/contenedor-de-basura.png";
 
 import { TarjetasInformacion } from "./TarjetasInformacion";
-import referencia from "../imagenes/LogoPNG.png";
+import referencia from "../imagenes/BinGo1.png";
 import { TarjetaReporte } from "./TarjetaReporte";
 
 export function Tarjeta(props) {
@@ -59,8 +59,9 @@ export function Tarjeta(props) {
       <button className="cerrarTarjeta" onClick={cerrarTarjeta}>
         X
       </button>
+      <h1 class="titleContainer" >Contenedor</h1>
       <div className="izquierda">
-        <h1>Contenedor</h1>
+        <h1></h1>
         <div className="info" style={{ flex: 1, maxWidth: '75%' }}>
           <TarjetasInformacion
             imagen={pin}
